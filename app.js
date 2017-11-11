@@ -32,12 +32,12 @@ const onMessage = ({sender, intent, entities, text, reply}) => {
             quick_replies: [
             {
                 content_type: 'text',
-                title: 'opcion1',
+                title: 'this',
                 payload: 'SOME_INTENT'
             },
             {
                 content_type: 'text',
-                title: 'opcion2',
+                title: 'that',
                 payload: 'SOME_OTHER_INTENT'
             }
         ]}
